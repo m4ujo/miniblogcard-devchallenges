@@ -15,8 +15,9 @@ body {
 .container {
   height: 100dvh;
   width: 100%;
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fafaf9;
 }
 
